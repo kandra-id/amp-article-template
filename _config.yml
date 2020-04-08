@@ -1,2 +1,3 @@
 title: eStore Single Blog by Colorlib in Github Page
 baseurl: '/estore-blog'
+permalink: /:title
