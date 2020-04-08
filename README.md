@@ -1,2 +1,2 @@
 # estore-blog
-trying e-store by colorlib here
+This is the adaptation of e-store theme by colorlib. 
