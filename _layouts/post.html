@@ -83,12 +83,12 @@ layout: default
                         <p>Simple guy who recently find a new hobby to learn Jekyll and adopt Colorlib Theme eStore to this Ruby based CMS</p>
                      </div>
                   </div>
+                     {% if page.comments %}
+                     <div id="disqus_thread"></div>
+                     {% include disqus.html %}
+                     {% endif %}
                </div>
-                  {% if page.comments %}
-                  <div id="disqus_thread"></div>
-                  {% include disqus.html %}
-                  {% endif %}
-{% include sidebar.html %}
+                  {% include sidebar.html %}
          </div>
       </div>
    </section>
