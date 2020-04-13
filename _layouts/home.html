@@ -10,7 +10,7 @@ layout: default
 <article class="blog_item">
                             <div class="blog_item_img">
                                 <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.png" alt="">
-                                <a href="#" class="blog_item_date">
+                                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" class="blog_item_date">
                                     <h3>{{ page.date | %-d }}</h3>
                                     <p>{{ page.date | %b }}</p>
                                 </a>
